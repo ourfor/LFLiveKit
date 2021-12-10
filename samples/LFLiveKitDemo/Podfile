@@ -1,6 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios,'7.0'
+source 'git@github.com:ourfor/LiveKit.git'
+platform :ios,'10.0'
 
 target “LFLiveKitDemo” do
     pod 'LFLiveKit', :path => '../../.'
+    pod 'LiveKit', :git => 'git@github.com:ourfor/LiveKit.git'
 end
